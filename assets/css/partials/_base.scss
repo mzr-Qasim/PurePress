@@ -1,1 +1,20 @@
 
+body{
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: "Poppins", serif;
+}
+
+
+h1, h2, h3, h4, p, ul, figure{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
