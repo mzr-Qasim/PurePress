@@ -130,16 +130,52 @@
 
         }
     }
-    .dashboard-content{
-        background-color: lightblue;
-        flex: 1;
-        padding: 2rem;
+
+}
+
+.dashboard-content{
+    background-color: $footer-color;
+    flex: 1;
+    padding: 2rem 10rem 2rem 2rem;
+
+}
+
+.tab-1{
+    .order-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        .new-order{
+            display: flex;
+            align-items: center;
+            line-height: 2rem;
+            font-size: calc(.8rem + .2vw);
+            i{
+                margin-left: 1rem;
+            }
+        }
     }
 }
 
-
-
-
+.col-content-inner{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .content{
+        b{
+            font-size: calc(2rem + .2vw);
+        }
+    }
+}
 
 
 
