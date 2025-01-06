@@ -1,3 +1,11 @@
+$primary-color: #a7f432;
+$secondary-color: #f7f9fe;
+$footer-color: #f7f9fe;
+
+$black-color: #000000;
+$white-color: #ffffff;
+
+
 
 body{
     overflow: hidden;
@@ -17,4 +25,20 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+
+.theme-button{
+    color: $white-color;
+    background-color: $black-color;
+    padding: .25rem 1rem;
+    border-radius: 20px;
+}
+
+
+
+ 
+.aside-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: $black-color;
+    background-color: $primary-color;
 }

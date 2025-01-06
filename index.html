@@ -9,9 +9,86 @@
 <body>
     <div class="site-wrapper">
         <header class="header">
-
+            <div class="main-navbar">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                          <a class="navbar-brand" href="#"><img src="assets/images/main-logo.svg" alt=""></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Packages</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Why Slikk?</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Students</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Commercial</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Dashboard</a>
+                              </li>
+                            </ul>
+                            <a href="#" class="Login-button theme-button">Login<span><i class="icon-login-icon"></i></span></a>
+                          </div>
+                      </nav>
+                </div><!-- /.container -->
+            </div><!-- /.main-navbar -->
         </header><!-- /.header -->
-        <main class="main-content"></main><!-- /.main-content -->
+        <main class="main-content">
+            <div class="discount-strip">
+                <p>10% student discount on all services</p>
+            </div><!-- /.discount-strip -->
+            <section class="main-dashboard">
+                <div class="aside-section">
+                    <div class="aside-tabs">
+                        <aside>
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="icon-my-orders-icon"></i><p>My Orders</p></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="icon-account-settings"></i><p>Account Settings</p></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="icon-payment-cards-icon"></i><p>Payment Card</p></button>
+                                </li>          
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tab-4" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="icon-discount-history-icon"></i><p>Discount History</p></button>
+                                </li>          
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#tab-5" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="icon-loyalty-history-icon"></i><p>Loyalty History</p></button>
+                                </li>    
+                                <li>
+                                    <a href="#" class="logout-button nav-link"><i class="icon-logout-icon"></i>Logout</a>
+                                </li>      
+                              </ul>
+                        </aside>
+                    </div><!-- /.aside-tabs -->
+                    <div class="referral-code">
+                        <p>LOYALTY POINTS 00</p>
+                        <p>LOYALTY POINTS 00</p>
+                    </div><!-- /.referral-code -->
+                </div><!-- /.aside-section -->
+                <div class="dashboard-content">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"aria-labelledby="pills-home-tab" tabindex="0"><p>abc</p></div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"aria-labelledby="pills-profile-tab" tabindex="0"><p>def</p></div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"aria-labelledby="pills-contact-tab" tabindex="0"><p>ghi</p></div>
+                        <div class="tab-pane fade" id="tab-4" role="tabpanel"aria-labelledby="pills-contact-tab" tabindex="0"><p>jkl</p></div>
+                        <div class="tab-pane fade" id="tab-5" role="tabpanel"aria-labelledby="pills-contact-tab" tabindex="0"><p>mno</p></div>
+                    </div>
+                </div><!-- /.dashboard-content -->
+            </section><!-- /.main-dashboard -->
+        </main><!-- /.main-content -->
         <footer class="footer"></footer><!-- /.footer -->
     </div><!-- /.site-wrapper -->
 

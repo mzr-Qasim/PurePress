@@ -12085,4 +12085,134 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.theme-button {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+}
+
+.aside-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #000000;
+  background-color: #a7f432;
+}
+
+.main-navbar {
+  margin: 1rem 0;
+}
+.main-navbar .navbar-brand img {
+  width: 180px;
+}
+.main-navbar .navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.main-navbar .navbar-nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+.main-navbar .navbar-nav li a {
+  font-weight: 500;
+  font-size: calc(0.7rem + 0.2vw);
+}
+.main-navbar .Login-button {
+  display: flex;
+  align-items: center;
+  font-size: calc(0.6rem + 0.2vw);
+}
+.main-navbar .Login-button i {
+  margin-left: 1rem;
+  font-size: calc(1rem + 0.2vw);
+  line-height: 2rem;
+}
+
+.discount-strip {
+  padding: 0.5rem 0;
+  background-color: #a7f432;
+  display: flex;
+  justify-content: center;
+}
+.discount-strip p {
+  font-size: calc(0.8rem + 0.2vw);
+  font-weight: 600;
+  position: relative;
+}
+.discount-strip p::before {
+  font-family: "icomoon";
+  content: "\e910";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-right: 2.5rem;
+}
+.discount-strip p::after {
+  font-family: "icomoon";
+  content: "\e910";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 2.5rem;
+}
+
+.main-dashboard {
+  display: flex;
+}
+.main-dashboard .aside-section {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 2rem 0;
+}
+.main-dashboard .aside-section .aside-tabs {
+  margin-bottom: 3rem;
+}
+.main-dashboard .aside-section .referral-code {
+  margin: 0 2rem;
+}
+.main-dashboard .aside-section ul {
+  display: flex;
+  flex-direction: column;
+}
+.main-dashboard .aside-section ul li {
+  display: flex;
+  flex-direction: column;
+}
+.main-dashboard .aside-section ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.main-dashboard .aside-section ul li button {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-weight: 600;
+  font-size: calc(0.8rem + 0.2vw);
+  margin: 0 1rem;
+}
+.main-dashboard .aside-section ul li button i {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.main-dashboard .aside-section ul li .logout-button {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-weight: 600;
+  font-size: calc(0.8rem + 0.2vw);
+  margin: 0 1rem;
+}
+.main-dashboard .aside-section ul li .logout-button i {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.main-dashboard .aside-section ul li .logout-button:hover {
+  background-color: #a7f432;
+  color: #000000;
+}
+.main-dashboard .dashboard-content {
+  background-color: lightblue;
+  flex: 1;
+  padding: 2rem;
 }/*# sourceMappingURL=main.css.map */

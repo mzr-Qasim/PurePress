@@ -5,11 +5,137 @@
 
 
 
+.main-navbar{
+    margin: 1rem 0;
+    .navbar-brand{
+        img{
+            width: 180px;
+        }
+    }
+    .navbar-nav{
+        display: flex; 
+        justify-content: center; 
+        flex: 1;
+        li{
+            &:not(:last-child){
+                margin-right: 1rem;
+            }
+            a{
+                font-weight: 500;
+                font-size: calc(.7rem + .2vw)
+            }
+        }
+    }
+    .Login-button{
+        display: flex;
+        align-items: center;
+        font-size: calc(.6rem + .2vw);
+        i{
+            margin-left: 1rem;
+            font-size: calc(1rem + .2vw);
+            line-height: 2rem;
+        }
+    }
+}
+
+.discount-strip{
+    padding: .5rem 0;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    p{
+        font-size: calc(.8rem + .2vw);
+        font-weight: 600;
+        position: relative;
+
+        &::before{
+            font-family: 'icomoon';
+            content: "\e910";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding-right: 2.5rem;
+            
+
+        }
+        &::after{
+            font-family: 'icomoon';
+            content: "\e910";
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            padding-left: 2.5rem;
+            
+
+        }
+    }
+}
 
 
 
+.main-dashboard{
+    display: flex;
+    .aside-section{
+        background-color: $white-color;
+        width: 250px;
+        padding: 2rem 0;
+        .aside-tabs{
+            margin-bottom: 3rem;
+            
+        }
+        .referral-code{
+            margin: 0 2rem;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            li{
+                display: flex;
+                flex-direction: column;
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                button{
+                    display: flex;
+                    align-items: center;
+                    color: grey;
+                    font-weight: 600;
+                    font-size: calc(.8rem + .2vw);
+                    margin: 0 1rem;
+                    i{
+                        margin-right: 1rem;
+                        font-weight: bold;
+                    }
 
+                }
+                .logout-button{
+                    display: flex;
+                    align-items: center;
+                    color: grey;
+                    font-weight: 600;
+                    font-size: calc(.8rem + .2vw);
+                    margin: 0 1rem;
+                    i{
+                        margin-right: 1rem;
+                        font-weight: bold;
+                    }
+                    &:hover{
+                        background-color: $primary-color;
+                        color: $black-color;
+                    }
+                }
+            }
 
+        }
+    }
+    .dashboard-content{
+        background-color: lightblue;
+        flex: 1;
+        padding: 2rem;
+    }
+}
 
 
 
