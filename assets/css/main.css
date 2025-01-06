@@ -12319,4 +12319,9 @@ a {
     background-color: #ebebeb;
     padding: 2rem;
   }
+}
+@media (max-width: 576px) {
+  .main-navbar .navbar-brand img {
+    width: 100px;
+  }
 }/*# sourceMappingURL=main.css.map */

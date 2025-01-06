@@ -23,3 +23,14 @@
     
     }
 }
+
+
+@media (max-width: 576px){
+    .main-navbar{
+        .navbar-brand{
+            img{
+                width: 100px;
+            }
+        }
+    }
+}
