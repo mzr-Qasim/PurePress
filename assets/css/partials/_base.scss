@@ -1,11 +1,15 @@
 $primary-color: #a7f432;
 $secondary-color: #f7f9fe;
-$footer-color: #f7f9fe;
+$footer-color: #ebebeb;
 
 $black-color: #000000;
 $white-color: #ffffff;
 
-
+.custom-container-dashboard{
+    max-width: 1350px;
+    margin-left: 2rem;
+    margin-right: auto;
+}
 
 body{
     overflow: hidden;

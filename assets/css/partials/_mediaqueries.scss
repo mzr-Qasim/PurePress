@@ -1,1 +1,25 @@
+@media (max-width: 991px){
 
+
+    .main-navbar{
+        .Login-button{
+            display: inline-block!important;
+            i{
+                display: none;
+            }
+        }
+    }
+
+
+    .main-dashboard{
+        flex-direction: column;
+        .aside-section{
+            width: 100%;
+        }
+    }
+    .dashboard-content{
+        background-color: $footer-color;
+        padding: 2rem;
+    
+    }
+}

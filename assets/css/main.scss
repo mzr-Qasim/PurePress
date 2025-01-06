@@ -9,7 +9,7 @@
     margin: 1rem 0;
     .navbar-brand{
         img{
-            width: 180px;
+            width: 170px;
         }
     }
     .navbar-nav{
@@ -81,13 +81,9 @@
         background-color: $white-color;
         width: 250px;
         padding: 2rem 0;
-        .aside-tabs{
-            margin-bottom: 3rem;
-            
-        }
-        .referral-code{
-            margin: 0 2rem;
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         ul{
             display: flex;
             flex-direction: column;
@@ -129,14 +125,44 @@
             }
 
         }
+        .referral-code{
+            margin: 0 2rem;
+            .loyalty-points{
+                margin-bottom: 1rem;
+                background-color: $footer-color;
+                text-align: center;
+                font-weight: 600;
+                color: grey;
+                padding: .5rem 0;
+                border-radius: 5px;
+            }
+            .ref-code{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                background-color: $black-color;
+                color: $white-color;
+                padding: 2rem 0;
+                border-radius: 10px;
+
+                p{
+                    font-size: calc(.5rem + .2vw);
+                }
+                b{
+                    font-size: calc(1rem + .2vw); 
+                    font-weight: 500;
+                }
+            }
+        }
     }
 
 }
 
 .dashboard-content{
-    background-color: $footer-color;
+    background-color: $secondary-color;
     flex: 1;
-    padding: 2rem 10rem 2rem 2rem;
+    padding: 2rem 0;
 
 }
 
@@ -146,6 +172,15 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 2rem;
+        .name{
+            p{
+                font-size: calc(.7rem + .2vw);
+                font-weight: 500;
+            }
+            b{
+                font-size: calc(1.25rem + .2vw);
+            }
+        }
 
         .new-order{
             display: flex;
@@ -159,12 +194,25 @@
     }
 }
 
+
+
+.content-info{
+    .row [class^="col-"] {
+        margin-bottom: 3rem;
+
+    }
+}
+
+
+
+
+
 .col-content-inner{
     background-color: white;
     color: black;
     width: 100%;
     height: 100%;
-    padding: 5rem 0;
+    padding: 3rem 0;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -172,12 +220,36 @@
     text-align: center;
     .content{
         b{
-            font-size: calc(2rem + .2vw);
+            font-weight: 600;
+            font-size: calc(3rem + .2vw);
+        }
+        p{
+            font-weight: 500;
+            font-size: calc(1rem + .2vw);
         }
     }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer{
+    background-color: $footer-color;
+}
 
 
 @import './partials/mediaqueries';
