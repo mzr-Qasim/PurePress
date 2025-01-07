@@ -12389,6 +12389,7 @@ footer {
 .copyright-inner .copyright-info {
   color: #696969;
   font-weight: 500;
+  font-size: calc(0.8rem + 0.2vw);
 }
 .copyright-inner .payment-links {
   display: flex;

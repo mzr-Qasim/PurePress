@@ -377,6 +377,7 @@ footer{
     .copyright-info{
         color: $text-color;
         font-weight: 500;
+        font-size: calc(.8rem + .2vw);
     }
 
     .payment-links{
