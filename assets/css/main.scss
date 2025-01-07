@@ -151,7 +151,7 @@
 
             .loyalty-points {
                 margin-bottom: 1rem;
-                background-color: $footer-color;
+                background-color: $tertiary-color;
                 text-align: center;
                 font-weight: 600;
                 color: grey;
@@ -274,16 +274,21 @@
 
 
 
-
+footer{
+    background-color: $tertiary-color;
+}
 
 .main-footer {
-    background-color: $footer-color;
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 
 
 .footer-inner {
     .col-inner {
+        b{
+            color: $text-color;
+            font-weight: 600;
+        }
         .footer-logo {
             margin-bottom: 2rem;
         }
@@ -311,14 +316,20 @@
 }
 
 .footer-links {
+    color: $text-color;
+    a{
+        color: $text-color;
+    }
     li {
         &:not(:last-child) {
             margin-bottom: .5rem;
         }
 
-        a {
-            color: $black-color;
+        a{
+            font-size: calc(.6rem + .2vw);
+            font-weight: 500;
         }
+
     }
 }
 
@@ -331,7 +342,7 @@
             height: 3rem;
             border-radius: 30px;
             padding-right: 8rem;
-            padding-left: 2rem;
+            padding-left: 1rem;
             border: 1px solid $black-color;
         }
 
@@ -342,11 +353,7 @@
             margin-right: .25rem;
             transform: translate(0,-50%);
             height: 2.5rem;
-            border-radius: 30px;
-            padding: 0 1rem;
             border: 0;
-            background-color: $black-color;
-            color: $white-color;
 
             &:hover{
                 background-color: $primary-color;
@@ -361,6 +368,32 @@
 }
 
 
+.copyright-inner{
+    border-top: 1px solid $text-color;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+    .copyright-info{
+        color: $text-color;
+        font-weight: 500;
+    }
+
+    .payment-links{
+        display: flex;
+        li{
+            &:not(:last-child){
+                margin-right: 1rem;
+            }
+            a{
+                color: $black-color;
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
 
 
 @import './partials/mediaqueries';

@@ -35,6 +35,13 @@
     
         }
     }
+    .copyright-inner{
+        flex-direction: column;
+        align-items: center;
+        .copyright-info{
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 
