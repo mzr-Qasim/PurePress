@@ -1,3 +1,12 @@
+@media (max-width: 1400px){
+    .dashboard-content{
+        padding-right: 0!important;
+        padding: 2rem!important;
+    
+    }
+}
+
+
 @media (max-width: 991px){
 
 
@@ -17,20 +26,21 @@
             width: 100%;
         }
     }
-    .dashboard-content{
-        background-color: $footer-color;
-        padding: 2rem;
+
+    .footer-inner{
+        .row [class^="col-"] {
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
     
+        }
     }
 }
 
 
 @media (max-width: 576px){
-    .main-navbar{
-        .navbar-brand{
-            img{
-                width: 100px;
-            }
-        }
+    .site-logo{
+        width: 120px;
     }
+ 
 }
