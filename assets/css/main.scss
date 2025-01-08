@@ -592,14 +592,18 @@ form {
             margin-top: 2rem;
             font-weight: bold;
             color: $text-color;
+            font-size: calc(1.5rem + .2vw);
         }
         p.info{
-            margin-top: 1rem
+            margin-top: 1rem;
+            font-weight: 500;
+            font-size: calc(.8rem + .2vw);
         }
         h4.price{
             margin: 2rem 0;
             font-weight: bold;
             color: $black-color;
+            font-size: calc(1.2rem + .2vw);
         }
 
     }

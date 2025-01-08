@@ -12589,14 +12589,18 @@ form {
   margin-top: 2rem;
   font-weight: bold;
   color: #696969;
+  font-size: calc(1.5rem + 0.2vw);
 }
 .packages-section .packages-col p.info {
   margin-top: 1rem;
+  font-weight: 500;
+  font-size: calc(0.8rem + 0.2vw);
 }
 .packages-section .packages-col h4.price, .packages-section .packages-col .price.h4 {
   margin: 2rem 0;
   font-weight: bold;
   color: #000000;
+  font-size: calc(1.2rem + 0.2vw);
 }
 
 @media (max-width: 1400px) {
