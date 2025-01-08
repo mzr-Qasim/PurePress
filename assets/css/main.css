@@ -12178,7 +12178,7 @@ a {
 }
 .discount-strip p::before {
   font-family: "icomoon";
-  content: "\e910";
+  content: "\e917";
   position: absolute;
   left: 0;
   top: 50%;
@@ -12187,7 +12187,7 @@ a {
 }
 .discount-strip p::after {
   font-family: "icomoon";
-  content: "\e910";
+  content: "\e917";
   position: absolute;
   left: 100%;
   top: 50%;
