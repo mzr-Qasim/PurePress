@@ -2,16 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?4aljfv");
-  src: url("fonts/icomoon.eot?4aljfv#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?4aljfv") format("truetype"), url("fonts/icomoon.woff?4aljfv") format("woff"), url("fonts/icomoon.svg?4aljfv#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-@font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?nj8ziy");
-  src: url("fonts/icomoon.eot?nj8ziy#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?nj8ziy") format("truetype"), url("fonts/icomoon.woff?nj8ziy") format("woff"), url("fonts/icomoon.svg?nj8ziy#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?88ckf5");
+  src: url("fonts/icomoon.eot?88ckf5#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?88ckf5") format("truetype"), url("fonts/icomoon.woff?88ckf5") format("woff"), url("fonts/icomoon.svg?88ckf5#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -38,76 +30,100 @@
   content: "\e901";
 }
 
-.icon-discount-history-icon:before {
+.icon-basic-plan:before {
   content: "\e902";
 }
 
-.icon-facebook-sketch-icon:before {
+.icon-discount-history-icon:before {
   content: "\e903";
 }
 
-.icon-google-pay-icon:before {
+.icon-facebook-sketch-icon:before {
   content: "\e904";
 }
 
-.icon-instagram-icon:before {
+.icon-google-pay-icon:before {
   content: "\e905";
 }
 
-.icon-instagram-icon-2:before {
+.icon-instagram-icon:before {
   content: "\e906";
 }
 
-.icon-linkedin-icon:before {
+.icon-instagram-icon-2:before {
   content: "\e907";
 }
 
-.icon-login-icon:before {
+.icon-linkedin-icon:before {
   content: "\e908";
 }
 
-.icon-logout-icon:before {
+.icon-login-icon:before {
   content: "\e909";
 }
 
-.icon-loyalty-history-icon:before {
+.icon-logout-icon:before {
   content: "\e90a";
 }
 
-.icon-mastercard-icon:before {
+.icon-loyalty-history-icon:before {
   content: "\e90b";
 }
 
-.icon-my-orders-icon:before {
+.icon-luxury-shoe-plan:before {
   content: "\e90c";
 }
 
-.icon-payment-cards-icon:before {
+.icon-mastercard-icon:before {
   content: "\e90d";
 }
 
-.icon-place-new-order-icon:before {
+.icon-my-orders-icon:before {
   content: "\e90e";
 }
 
-.icon-snapchat-icon:before {
+.icon-payment-cards-icon:before {
   content: "\e90f";
 }
 
-.icon-star-icon:before {
+.icon-place-new-order-icon:before {
   content: "\e910";
 }
 
-.icon-tiktok-icon:before {
+.icon-premium-plan:before {
   content: "\e911";
 }
 
-.icon-twitter-icon:before {
+.icon-premium-shoe-plan:before {
   content: "\e912";
 }
 
-.icon-visa-icon:before {
+.icon-snapchat-icon:before {
   content: "\e913";
+}
+
+.icon-standard-plan:before {
+  content: "\e914";
+}
+
+.icon-standard-shoe-plan:before {
+  content: "\e915";
+}
+
+.icon-star-icon:before {
+  content: "\e916";
+}
+
+.icon-tiktok-icon:before {
+  content: "\e917";
+}
+
+.icon-twitter-icon:before {
+  content: "\e918";
+}
+
+.icon-visa-icon:before {
+  content: "\e919";
 }
 
 /*!
@@ -12077,9 +12093,8 @@ textarea.form-control-lg {
   }
 }
 .custom-container-dashboard {
-  max-width: 1350px;
-  margin-left: 2rem;
-  margin-right: auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 body {
@@ -12555,6 +12570,9 @@ form {
   background-color: #f7f9fe;
   padding: 8rem 0;
 }
+.packages-section .row [class^=col-] {
+  padding-bottom: 3rem;
+}
 .packages-section .col-inner {
   height: 100%;
   width: 100%;
@@ -12564,7 +12582,11 @@ form {
   align-items: center;
 }
 .packages-section .package-section-title {
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .packages-section .package-section-title h3, .packages-section .package-section-title .h3 {
   margin-bottom: 2rem;
@@ -12577,7 +12599,8 @@ form {
 }
 .packages-section .packages-col {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-align: center;
   padding: 3rem 2rem;
 }
@@ -12593,10 +12616,70 @@ form {
 }
 .packages-section .packages-col p.info {
   margin-top: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   font-size: calc(0.8rem + 0.2vw);
 }
 .packages-section .packages-col h4.price, .packages-section .packages-col .price.h4 {
+  margin: 2rem 0;
+  font-weight: bold;
+  color: #000000;
+  font-size: calc(1.2rem + 0.2vw);
+}
+
+.shoe-packages-section {
+  background-color: #f7f9fe;
+  padding-bottom: 4rem;
+}
+.shoe-packages-section .row [class^=col-] {
+  padding-bottom: 3rem;
+}
+.shoe-packages-section .col-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shoe-packages-section .package-section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.shoe-packages-section .package-section-title h3, .shoe-packages-section .package-section-title .h3 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #696969;
+}
+.shoe-packages-section .package-section-title p {
+  font-weight: 600;
+  color: #696969;
+}
+.shoe-packages-section .packages-col {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.shoe-packages-section .packages-col i.packages-icon {
+  font-size: 7rem;
+  color: #696969;
+}
+.shoe-packages-section .packages-col h3.package-name, .shoe-packages-section .packages-col .package-name.h3 {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #696969;
+  font-size: calc(1.5rem + 0.2vw);
+}
+.shoe-packages-section .packages-col p.info {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: calc(0.8rem + 0.2vw);
+}
+.shoe-packages-section .packages-col h4.price, .shoe-packages-section .packages-col .price.h4 {
   margin: 2rem 0;
   font-weight: bold;
   color: #000000;
