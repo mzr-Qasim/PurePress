@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?88ckf5');
-  src:  url('fonts/icomoon.eot?88ckf5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?88ckf5') format('truetype'),
-    url('fonts/icomoon.woff?88ckf5') format('woff'),
-    url('fonts/icomoon.svg?88ckf5#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?f5sunj');
+  src:  url('fonts/icomoon.eot?f5sunj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?f5sunj') format('truetype'),
+    url('fonts/icomoon.woff?f5sunj') format('woff'),
+    url('fonts/icomoon.svg?f5sunj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -74,36 +74,39 @@
 .icon-my-orders-icon:before {
   content: "\e90e";
 }
-.icon-payment-cards-icon:before {
+.icon-packages-star-icon:before {
   content: "\e90f";
 }
-.icon-place-new-order-icon:before {
+.icon-payment-cards-icon:before {
   content: "\e910";
 }
-.icon-premium-plan:before {
+.icon-place-new-order-icon:before {
   content: "\e911";
 }
-.icon-premium-shoe-plan:before {
+.icon-premium-plan:before {
   content: "\e912";
 }
-.icon-snapchat-icon:before {
+.icon-premium-shoe-plan:before {
   content: "\e913";
 }
-.icon-standard-plan:before {
+.icon-snapchat-icon:before {
   content: "\e914";
 }
-.icon-standard-shoe-plan:before {
+.icon-standard-plan:before {
   content: "\e915";
 }
-.icon-star-icon:before {
+.icon-standard-shoe-plan:before {
   content: "\e916";
 }
-.icon-tiktok-icon:before {
+.icon-star-icon:before {
   content: "\e917";
 }
-.icon-twitter-icon:before {
+.icon-tiktok-icon:before {
   content: "\e918";
 }
-.icon-visa-icon:before {
+.icon-twitter-icon:before {
   content: "\e919";
+}
+.icon-visa-icon:before {
+  content: "\e91a";
 }

@@ -578,15 +578,31 @@ form {
         align-items: center;
         text-align: center;
         margin-bottom: 3rem;
+        position: relative;
+        z-index: 1;
 
         h3{
             margin-bottom: 2rem;
             font-weight: bold;
-            color: $text-color;
+            color: $black-color;
         }
         p{
             font-weight: 600;
-            color: $text-color;
+            color: $black-color;
+        }
+
+        &::before{
+            font-family: 'icomoon' !important;
+            content: "\e90f";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 10rem;
+            z-index: -1;
+            rotate: 45deg;
+
+            color: $primary-color;
         }
     }
     .packages-col{
@@ -644,15 +660,30 @@ form {
         align-items: center;
         text-align: center;
         margin-bottom: 3rem;
+        position: relative;
+        z-index: 1;
 
         h3{
             margin-bottom: 2rem;
             font-weight: bold;
-            color: $text-color;
+            color: $black-color;
         }
         p{
             font-weight: 600;
-            color: $text-color;
+            color: $black-color;
+        }
+        &::before{
+            font-family: 'icomoon';
+            content: "\e90f";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 10rem;
+            z-index: -1;
+            rotate: 45deg;
+
+            color: $primary-color;
         }
     }
     .packages-col{
