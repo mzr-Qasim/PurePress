@@ -12092,11 +12092,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.custom-container-dashboard {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 body {
   overflow: hidden;
   overflow-y: auto;
