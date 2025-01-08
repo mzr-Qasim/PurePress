@@ -43,15 +43,44 @@
         }
     }
 
-    // Packages mediaqueries
-
-
+   
 }
+
+@media (max-width: 767px){
+      // Packages mediaqueries
+
+      .packages-section{
+        .package-section-title{
+            &::before{
+                top: 50%;
+                left: 25%;
+                transform: translate(-50%,-50%);
+                font-size: 7rem;
+                rotate: 45deg;
+
+            }
+        }
+    }
+    .shoe-packages-section{
+        .package-section-title{
+            &::before{
+                top: 50%;
+                left: 25%;
+                transform: translate(-50%,-50%);
+                font-size: 7rem;
+                rotate: 45deg;
+
+            }
+        }
+    }
+}
+
 
 
 @media (max-width: 576px){
     .site-logo{
         width: 120px;
     }
+
  
 }
