@@ -12153,6 +12153,11 @@ a {
   font-size: calc(1rem + 0.2vw);
 }
 
+.add-card-button {
+  color: #000000;
+  font-weight: 600;
+}
+
 .site-logo {
   width: 170px;
 }
