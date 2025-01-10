@@ -12120,6 +12120,15 @@ a {
   background-color: #000000;
   padding: 0.25rem 1rem;
   border-radius: 20px;
+  border: 0 !important;
+}
+
+.theme-button-large {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  border: 0 !important;
 }
 
 .order-now-theme-button {
@@ -12132,6 +12141,16 @@ a {
 .aside-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #000000;
   background-color: #a7f432;
+}
+
+.dashboard-content-inner {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  border-radius: 20px;
+}
+.dashboard-content-inner strong {
+  font-weight: 500;
+  font-size: calc(1rem + 0.2vw);
 }
 
 .site-logo {
@@ -12312,6 +12331,29 @@ a {
   margin-bottom: 3rem;
 }
 
+.account-settings .col-inner {
+  height: 100%;
+}
+.account-settings .col-inner .update-button {
+  display: flex;
+  justify-content: center;
+}
+.account-settings .col-inner input {
+  padding: 0 1rem;
+  width: 100%;
+  height: 2.5rem;
+}
+.account-settings .col-inner input:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.account-settings .col-inner strong {
+  display: block;
+}
+.account-settings .contact-info-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 .col-content-inner {
   background-color: #ffffff;
   color: #000000;
@@ -12331,6 +12373,12 @@ a {
 .col-content-inner .content p {
   font-weight: 500;
   font-size: calc(1rem + 0.2vw);
+}
+
+.discount-codes-inner {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 footer {
@@ -12717,6 +12765,11 @@ form {
   .dashboard-content {
     padding-right: 0 !important;
     padding: 2rem !important;
+  }
+}
+@media (max-width: 1200px) {
+  .account-settings .row [class^=col-]:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 991px) {

@@ -37,6 +37,15 @@ a{
     background-color: $black-color;
     padding: .25rem 1rem;
     border-radius: 20px;
+    border: 0!important;
+}
+
+.theme-button-large{
+    color: $white-color;
+    background-color: $black-color;
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    border: 0!important;
 }
 
 
@@ -52,4 +61,15 @@ a{
 .aside-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: $black-color;
     background-color: $primary-color;
+}
+
+
+.dashboard-content-inner{
+    background-color: $white-color;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    strong{
+        font-weight: 500;
+        font-size: calc(1rem + .2vw);
+    }
 }
