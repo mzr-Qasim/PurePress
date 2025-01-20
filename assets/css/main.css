@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?f5sunj");
-  src: url("fonts/icomoon.eot?f5sunj#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?f5sunj") format("truetype"), url("fonts/icomoon.woff?f5sunj") format("woff"), url("fonts/icomoon.svg?f5sunj#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?s10j5x");
+  src: url("fonts/icomoon.eot?s10j5x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?s10j5x") format("truetype"), url("fonts/icomoon.woff?s10j5x") format("woff"), url("fonts/icomoon.svg?s10j5x#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -128,6 +128,14 @@
 
 .icon-visa-icon:before {
   content: "\e91a";
+}
+
+.icon-back-to-icons-aside:before {
+  content: "\e91b";
+}
+
+.icon-full-aside:before {
+  content: "\e91c";
 }
 
 /*!
@@ -12158,6 +12166,18 @@ a {
   font-weight: 600;
 }
 
+.asideMenu-smallwidth {
+  width: 70px !important;
+}
+
+.dashboard-content-width {
+  margin-left: 70px !important;
+}
+
+.lg-hide-menu {
+  display: none !important;
+}
+
 .site-logo {
   width: 170px;
 }
@@ -12222,12 +12242,15 @@ a {
 .main-dashboard {
   height: 100%;
   width: 100%;
-  display: flex;
+  position: relative;
 }
 .main-dashboard .aside-section {
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
   background-color: #ffffff;
   width: 250px;
-  min-height: 100%;
+  min-height: 100vh;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -12235,6 +12258,20 @@ a {
 }
 .main-dashboard .aside-section .aside-tabs {
   margin-bottom: 2rem;
+}
+.main-dashboard .aside-section .aside-tabs .aside-menu-button {
+  background-color: transparent;
+  border: 0;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  transition: ease-in-out 0.3s;
+}
+.main-dashboard .aside-section .aside-tabs .aside-menu-button i {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.main-dashboard .aside-section .aside-tabs .aside-menu-button:hover i {
+  color: #a7f432;
 }
 .main-dashboard .aside-section ul {
   display: flex;
@@ -12303,8 +12340,9 @@ a {
 .main-dashboard .dashboard-content {
   background-color: #f7f9fe;
   padding: 2rem 0;
+  margin-left: 250px;
   flex: 1;
-  min-height: 100%;
+  min-height: 100vh;
   padding-left: 2rem;
   padding-right: 250px;
 }
@@ -12784,11 +12822,22 @@ form {
   .main-navbar .Login-button i {
     display: none;
   }
-  .main-dashboard {
-    flex-direction: column;
-  }
   .main-dashboard .aside-section {
-    width: 100%;
+    width: 70px !important;
+    min-height: 100vh;
+  }
+  .main-dashboard .aside-section .aside-menu-button {
+    display: none;
+  }
+  .main-dashboard .aside-section button {
+    justify-content: center;
+  }
+  .main-dashboard .aside-section .lg-hide {
+    display: none !important;
+  }
+  .main-dashboard .dashboard-content {
+    margin-left: 70px;
+    height: 100vh !important;
   }
   .footer-inner .row [class^=col-]:not(:last-child) {
     margin-bottom: 1.5rem;

@@ -32,6 +32,9 @@ a{
 }
 
 
+
+
+
 .theme-button{
     color: $white-color;
     background-color: $black-color;
@@ -77,4 +80,19 @@ a{
 .add-card-button{
     color: $black-color;
     font-weight: 600;
+}
+
+
+.asideMenu-smallwidth{
+    width: 70px!important;
+}
+
+
+.dashboard-content-width{
+    margin-left: 70px!important;
+}
+
+
+.lg-hide-menu{
+    display: none!important;
 }

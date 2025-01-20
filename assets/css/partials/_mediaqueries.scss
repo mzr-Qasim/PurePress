@@ -32,9 +32,22 @@
 
 
     .main-dashboard{
-        flex-direction: column;
         .aside-section{
-            width: 100%;
+            width: 70px!important;
+            min-height: 100vh;
+            .aside-menu-button{
+                display: none;
+            }
+            button{
+                justify-content: center;
+            }
+            .lg-hide{
+                display: none!important;
+            }
+        }
+        .dashboard-content {
+            margin-left: 70px;
+            height: 100vh!important;
         }
     }
 
