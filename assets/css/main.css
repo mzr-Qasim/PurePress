@@ -12250,7 +12250,7 @@ a {
   position: absolute;
   background-color: #ffffff;
   width: 250px;
-  min-height: 100vh;
+  height: 100vh;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
@@ -12821,23 +12821,6 @@ form {
   }
   .main-navbar .Login-button i {
     display: none;
-  }
-  .main-dashboard .aside-section {
-    width: 70px !important;
-    min-height: 100vh;
-  }
-  .main-dashboard .aside-section .aside-menu-button {
-    display: none;
-  }
-  .main-dashboard .aside-section button {
-    justify-content: center;
-  }
-  .main-dashboard .aside-section .lg-hide {
-    display: none !important;
-  }
-  .main-dashboard .dashboard-content {
-    margin-left: 70px;
-    height: 100vh !important;
   }
   .footer-inner .row [class^=col-]:not(:last-child) {
     margin-bottom: 1.5rem;
