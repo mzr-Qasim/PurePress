@@ -12220,7 +12220,7 @@ a {
 }
 .discount-strip p::before {
   font-family: "icomoon";
-  content: "\e917";
+  content: "\e919";
   position: absolute;
   left: 0;
   top: 50%;
@@ -12229,7 +12229,7 @@ a {
 }
 .discount-strip p::after {
   font-family: "icomoon";
-  content: "\e917";
+  content: "\e919";
   position: absolute;
   left: 100%;
   top: 50%;
@@ -12690,7 +12690,7 @@ form {
 }
 .packages-section .package-section-title::before {
   font-family: "icomoon" !important;
-  content: "\e90f";
+  content: "\e911";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12764,7 +12764,7 @@ form {
 }
 .shoe-packages-section .package-section-title::before {
   font-family: "icomoon";
-  content: "\e90f";
+  content: "\e911";
   position: absolute;
   top: 50%;
   left: 50%;
