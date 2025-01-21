@@ -101,7 +101,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        transition: all ease-in-out .4s;
+        transition: all ease-in-out .5s;
 
         .aside-tabs {
             margin-bottom: 2rem;
@@ -195,6 +195,7 @@
         min-height: 100vh;
         padding-left: 2rem;
         padding-right: $dashboard-width;
+        transition: all ease-in-out .5s;
     
     }
 
@@ -216,8 +217,8 @@
             transition: ease-in-out .3s;
 
             i{
-                color: $black-color;
-                font-size: 1.5rem;
+                color: $text-color;
+                font-size: 1.7rem;
             }
 
             &:hover{

@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?s10j5x");
-  src: url("fonts/icomoon.eot?s10j5x#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?s10j5x") format("truetype"), url("fonts/icomoon.woff?s10j5x") format("woff"), url("fonts/icomoon.svg?s10j5x#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?gz8ty1");
+  src: url("fonts/icomoon.eot?gz8ty1#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?gz8ty1") format("truetype"), url("fonts/icomoon.woff?gz8ty1") format("woff"), url("fonts/icomoon.svg?gz8ty1#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -30,111 +30,111 @@
   content: "\e901";
 }
 
-.icon-basic-plan:before {
+.icon-back-to-icons-aside:before {
   content: "\e902";
 }
 
-.icon-discount-history-icon:before {
+.icon-basic-plan:before {
   content: "\e903";
 }
 
-.icon-facebook-sketch-icon:before {
+.icon-discount-history-icon:before {
   content: "\e904";
 }
 
-.icon-google-pay-icon:before {
+.icon-facebook-sketch-icon:before {
   content: "\e905";
 }
 
-.icon-instagram-icon:before {
+.icon-full-aside:before {
   content: "\e906";
 }
 
-.icon-instagram-icon-2:before {
+.icon-google-pay-icon:before {
   content: "\e907";
 }
 
-.icon-linkedin-icon:before {
+.icon-instagram-icon:before {
   content: "\e908";
 }
 
-.icon-login-icon:before {
+.icon-instagram-icon-2:before {
   content: "\e909";
 }
 
-.icon-logout-icon:before {
+.icon-linkedin-icon:before {
   content: "\e90a";
 }
 
-.icon-loyalty-history-icon:before {
+.icon-login-icon:before {
   content: "\e90b";
 }
 
-.icon-luxury-shoe-plan:before {
+.icon-logout-icon:before {
   content: "\e90c";
 }
 
-.icon-mastercard-icon:before {
+.icon-loyalty-history-icon:before {
   content: "\e90d";
 }
 
-.icon-my-orders-icon:before {
+.icon-luxury-shoe-plan:before {
   content: "\e90e";
 }
 
-.icon-packages-star-icon:before {
+.icon-mastercard-icon:before {
   content: "\e90f";
 }
 
-.icon-payment-cards-icon:before {
+.icon-my-orders-icon:before {
   content: "\e910";
 }
 
-.icon-place-new-order-icon:before {
+.icon-packages-star-icon:before {
   content: "\e911";
 }
 
-.icon-premium-plan:before {
+.icon-payment-cards-icon:before {
   content: "\e912";
 }
 
-.icon-premium-shoe-plan:before {
+.icon-place-new-order-icon:before {
   content: "\e913";
 }
 
-.icon-snapchat-icon:before {
+.icon-premium-plan:before {
   content: "\e914";
 }
 
-.icon-standard-plan:before {
+.icon-premium-shoe-plan:before {
   content: "\e915";
 }
 
-.icon-standard-shoe-plan:before {
+.icon-snapchat-icon:before {
   content: "\e916";
 }
 
-.icon-star-icon:before {
+.icon-standard-plan:before {
   content: "\e917";
 }
 
-.icon-tiktok-icon:before {
+.icon-standard-shoe-plan:before {
   content: "\e918";
 }
 
-.icon-twitter-icon:before {
+.icon-star-icon:before {
   content: "\e919";
 }
 
-.icon-visa-icon:before {
+.icon-tiktok-icon:before {
   content: "\e91a";
 }
 
-.icon-back-to-icons-aside:before {
+.icon-twitter-icon:before {
   content: "\e91b";
 }
 
-.icon-full-aside:before {
+.icon-visa-icon:before {
   content: "\e91c";
 }
 
@@ -12253,7 +12253,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.5s;
 }
 .main-dashboard .aside-section .aside-tabs {
   margin-bottom: 2rem;
@@ -12330,6 +12330,7 @@ a {
   min-height: 100vh;
   padding-left: 2rem;
   padding-right: 250px;
+  transition: all ease-in-out 0.5s;
 }
 
 .order-info {
@@ -12345,8 +12346,8 @@ a {
   transition: ease-in-out 0.3s;
 }
 .order-info .name .aside-menu-button i {
-  color: #000000;
-  font-size: 1.5rem;
+  color: #696969;
+  font-size: 1.7rem;
 }
 .order-info .name .aside-menu-button:hover i {
   color: #a7f432;
