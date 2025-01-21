@@ -12167,15 +12167,13 @@ a {
 }
 
 .asideMenu-smallwidth {
-  width: 70px !important;
+  transform: translateX(-100%);
+  transition: all ease-in-out 0.4s;
 }
 
 .dashboard-content-width {
-  margin-left: 70px !important;
-}
-
-.lg-hide-menu {
-  display: none !important;
+  margin-left: 0 !important;
+  transition: all ease-in-out 0.4s;
 }
 
 .site-logo {
@@ -12255,23 +12253,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all ease-in-out 0.4s;
 }
 .main-dashboard .aside-section .aside-tabs {
   margin-bottom: 2rem;
-}
-.main-dashboard .aside-section .aside-tabs .aside-menu-button {
-  background-color: transparent;
-  border: 0;
-  margin: 0 1rem;
-  margin-bottom: 2rem;
-  transition: ease-in-out 0.3s;
-}
-.main-dashboard .aside-section .aside-tabs .aside-menu-button i {
-  color: #000000;
-  font-size: 1.5rem;
-}
-.main-dashboard .aside-section .aside-tabs .aside-menu-button:hover i {
-  color: #a7f432;
 }
 .main-dashboard .aside-section ul {
   display: flex;
@@ -12352,6 +12337,19 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+}
+.order-info .name .aside-menu-button {
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 1rem;
+  transition: ease-in-out 0.3s;
+}
+.order-info .name .aside-menu-button i {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.order-info .name .aside-menu-button:hover i {
+  color: #a7f432;
 }
 .order-info .name p {
   font-size: calc(0.7rem + 0.2vw);
@@ -12821,6 +12819,18 @@ form {
   }
   .main-navbar .Login-button i {
     display: none;
+  }
+  .main-dashboard .aside-section {
+    width: 70px;
+  }
+  .main-dashboard .aside-section button {
+    justify-content: center;
+  }
+  .main-dashboard .aside-section .lg-hide {
+    display: none !important;
+  }
+  .main-dashboard .dashboard-content {
+    margin-left: 70px;
   }
   .footer-inner .row [class^=col-]:not(:last-child) {
     margin-bottom: 1.5rem;

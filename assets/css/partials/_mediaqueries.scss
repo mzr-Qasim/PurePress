@@ -31,25 +31,21 @@
     }
 
 
-    // .main-dashboard{
-    //     .aside-section{
-    //         width: 70px!important;
-    //         min-height: 100vh;
-    //         .aside-menu-button{
-    //             display: none;
-    //         }
-    //         button{
-    //             justify-content: center;
-    //         }
-    //         .lg-hide{
-    //             display: none!important;
-    //         }
-    //     }
-    //     .dashboard-content {
-    //         margin-left: 70px;
-    //         height: 100vh!important;
-    //     }
-    // }
+    .main-dashboard{
+        .aside-section{
+            width: 70px;
+
+            button{
+                justify-content: center;
+            }
+            .lg-hide{
+                display: none!important;
+            }
+        }
+        .dashboard-content {
+            margin-left: 70px;
+        }
+    }
 
     .footer-inner{
         .row [class^="col-"] {

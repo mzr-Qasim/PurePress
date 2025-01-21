@@ -84,15 +84,14 @@ a{
 
 
 .asideMenu-smallwidth{
-    width: 70px!important;
+    transform: translateX(-100%);
+    transition: all ease-in-out .4s;
+
 }
 
 
 .dashboard-content-width{
-    margin-left: 70px!important;
+    margin-left: 0 !important;
+    transition: all ease-in-out .4s;
 }
 
-
-.lg-hide-menu{
-    display: none!important;
-}
