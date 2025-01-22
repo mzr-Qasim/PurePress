@@ -12212,17 +12212,32 @@ a {
 }
 
 .discount-strip {
-  padding: 0.5rem 0;
   background-color: #a7f432;
-  display: flex;
-  justify-content: center;
 }
-.discount-strip p {
+
+.discount-strip-inner {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+.discount-strip-inner .aside-menu-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  text-align: left;
+  transition: ease-in-out 0.3s;
+}
+.discount-strip-inner .aside-menu-button i {
+  color: #000000;
+  font-size: 1.7rem;
+}
+.discount-strip-inner p {
   font-size: calc(0.8rem + 0.2vw);
   font-weight: 600;
   position: relative;
 }
-.discount-strip p::before {
+.discount-strip-inner p::before {
   font-family: "icomoon";
   content: "\e91a";
   position: absolute;
@@ -12231,7 +12246,7 @@ a {
   transform: translate(-50%, -50%);
   padding-right: 2.5rem;
 }
-.discount-strip p::after {
+.discount-strip-inner p::after {
   font-family: "icomoon";
   content: "\e91a";
   position: absolute;
@@ -12342,19 +12357,6 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-}
-.order-info .name .aside-menu-button {
-  background-color: transparent;
-  border: 0;
-  margin-bottom: 1rem;
-  transition: ease-in-out 0.3s;
-}
-.order-info .name .aside-menu-button i {
-  color: #000000;
-  font-size: 2rem;
-}
-.order-info .name .aside-menu-button:hover i {
-  color: #a7f432;
 }
 .order-info .name p {
   font-size: calc(0.7rem + 0.2vw);

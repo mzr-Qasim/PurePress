@@ -44,11 +44,29 @@
     }
 }
 
-.discount-strip {
-    padding: .5rem 0;
+.discount-strip{
     background-color: $primary-color;
+}
+
+.discount-strip-inner {
+    padding: .5rem 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
+
+    .aside-menu-button{
+        display: flex; 
+        align-items: center;
+        background-color: transparent;
+        border: 0;
+        text-align: left;
+        transition: ease-in-out .3s;
+
+        i{
+            color: $black-color;
+            font-size: 1.7rem;
+        }
+        
+    }
 
     p {
         font-size: calc(.8rem + .2vw);
@@ -210,24 +228,6 @@
     margin-bottom: 2rem;
 
     .name {
-        .aside-menu-button{
-            background-color: transparent;
-            border: 0;
-            margin-bottom: 1rem;
-            transition: ease-in-out .3s;
-
-            i{
-                color: $black-color;
-                font-size: 2rem;
-            }
-
-            &:hover{
-                i{
-                    color: $primary-color;
-                }
-            }
-            
-        }
         p {
             font-size: calc(.7rem + .2vw);
             font-weight: 500;
