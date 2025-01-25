@@ -5,7 +5,7 @@
 
 
 .site-logo {
-    width: 170px;
+    width: 150px;
 }
 
 
@@ -75,7 +75,7 @@
 
         &::before {
             font-family: 'icomoon';
-            content: "\e91a";
+            content: "\e904";
             position: absolute;
             left: 0;
             top: 50%;
@@ -87,7 +87,7 @@
 
         &::after {
             font-family: 'icomoon';
-            content: "\e91a";
+            content: "\e904";
             position: absolute;
             left: 100%;
             top: 50%;
@@ -366,7 +366,7 @@ footer{
             color: $black-color;
 
             i {
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
         }
 
@@ -649,7 +649,7 @@ form {
 
         &::before{
             font-family: 'icomoon' !important;
-            content: "\e912";
+            content: "\e905";
             position: absolute;
             top: 50%;
             left: 50%;
@@ -730,7 +730,7 @@ form {
         }
         &::before{
             font-family: 'icomoon';
-            content: "\e912";
+            content: "\e905";
             position: absolute;
             top: 50%;
             left: 50%;

@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?va57a");
-  src: url("fonts/icomoon.eot?va57a#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?va57a") format("truetype"), url("fonts/icomoon.woff?va57a") format("woff"), url("fonts/icomoon.svg?va57a#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?c8jma6");
+  src: url("fonts/icomoon.eot?c8jma6#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?c8jma6") format("truetype"), url("fonts/icomoon.woff?c8jma6") format("woff"), url("fonts/icomoon.svg?c8jma6#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -30,116 +30,100 @@
   content: "\e901";
 }
 
-.icon-aside-menu-icon:before {
+.icon-back-to-icons-aside:before {
   content: "\e902";
 }
 
-.icon-back-to-icons-aside:before {
+.icon-basic-plan:before {
   content: "\e903";
 }
 
-.icon-basic-plan:before {
+.icon-diamond:before {
   content: "\e904";
 }
 
-.icon-discount-history-icon:before {
+.icon-diamond-pacakges:before {
   content: "\e905";
 }
 
-.icon-facebook-sketch-icon:before {
+.icon-discount-history-icon:before {
   content: "\e906";
 }
 
-.icon-full-aside:before {
+.icon-facebook:before {
   content: "\e907";
 }
 
-.icon-google-pay-icon:before {
+.icon-full-aside:before {
   content: "\e908";
 }
 
-.icon-instagram-icon:before {
+.icon-google-pay-icon:before {
   content: "\e909";
 }
 
-.icon-instagram-icon-2:before {
+.icon-linkedin:before {
   content: "\e90a";
 }
 
-.icon-linkedin-icon:before {
+.icon-login-icon:before {
   content: "\e90b";
 }
 
-.icon-login-icon:before {
+.icon-logout-icon:before {
   content: "\e90c";
 }
 
-.icon-logout-icon:before {
+.icon-loyalty-history-icon:before {
   content: "\e90d";
 }
 
-.icon-loyalty-history-icon:before {
+.icon-luxury-shoe-plan:before {
   content: "\e90e";
 }
 
-.icon-luxury-shoe-plan:before {
+.icon-mastercard-icon:before {
   content: "\e90f";
 }
 
-.icon-mastercard-icon:before {
+.icon-my-orders-icon:before {
   content: "\e910";
 }
 
-.icon-my-orders-icon:before {
+.icon-payment-cards-icon:before {
   content: "\e911";
 }
 
-.icon-packages-star-icon:before {
+.icon-place-new-order-icon:before {
   content: "\e912";
 }
 
-.icon-payment-cards-icon:before {
+.icon-premium-plan:before {
   content: "\e913";
 }
 
-.icon-place-new-order-icon:before {
+.icon-premium-shoe-plan:before {
   content: "\e914";
 }
 
-.icon-premium-plan:before {
+.icon-snapchat:before {
   content: "\e915";
 }
 
-.icon-premium-shoe-plan:before {
+.icon-standard-plan:before {
   content: "\e916";
 }
 
-.icon-snapchat-icon:before {
+.icon-standard-shoe-plan:before {
   content: "\e917";
 }
 
-.icon-standard-plan:before {
+.icon-twitter:before {
   content: "\e918";
 }
 
-.icon-standard-shoe-plan:before {
-  content: "\e919";
-}
-
-.icon-star-icon:before {
-  content: "\e91a";
-}
-
-.icon-tiktok-icon:before {
-  content: "\e91b";
-}
-
-.icon-twitter-icon:before {
-  content: "\e91c";
-}
-
 .icon-visa-icon:before {
-  content: "\e91d";
+  content: "\e919";
 }
 
 /*!
@@ -12144,7 +12128,7 @@ a {
 }
 
 .order-now-theme-button {
-  background-color: #a7f432;
+  background-color: #d39ee6;
   color: #000000;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
@@ -12152,7 +12136,7 @@ a {
 
 .aside-section .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #000000;
-  background-color: #a7f432;
+  background-color: #d39ee6;
 }
 
 .dashboard-content-inner {
@@ -12181,7 +12165,7 @@ a {
 }
 
 .site-logo {
-  width: 170px;
+  width: 150px;
 }
 
 .main-navbar {
@@ -12212,7 +12196,7 @@ a {
 }
 
 .discount-strip {
-  background-color: #a7f432;
+  background-color: #d39ee6;
 }
 
 .discount-strip-inner {
@@ -12239,7 +12223,7 @@ a {
 }
 .discount-strip-inner p::before {
   font-family: "icomoon";
-  content: "\e91a";
+  content: "\e904";
   position: absolute;
   left: 0;
   top: 50%;
@@ -12248,7 +12232,7 @@ a {
 }
 .discount-strip-inner p::after {
   font-family: "icomoon";
-  content: "\e91a";
+  content: "\e904";
   position: absolute;
   left: 100%;
   top: 50%;
@@ -12317,7 +12301,7 @@ a {
 }
 .main-dashboard .aside-section .referral-code .loyalty-points {
   margin-bottom: 1rem;
-  background-color: #ebebeb;
+  background-color: #fffff2;
   text-align: center;
   font-weight: 600;
   color: #696969;
@@ -12342,7 +12326,7 @@ a {
   font-weight: 500;
 }
 .main-dashboard .dashboard-content {
-  background-color: #f7f9fe;
+  background-color: #F8F8F8;
   padding: 2rem 0;
   margin-left: 250px;
   flex: 1;
@@ -12430,7 +12414,7 @@ a {
 }
 
 footer {
-  background-color: #ebebeb;
+  background-color: #fffff2;
 }
 
 .main-footer {
@@ -12455,7 +12439,7 @@ footer {
   color: #000000;
 }
 .social-media-icons li a i {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .footer-links {
@@ -12494,7 +12478,7 @@ footer {
   border: 0;
 }
 .col-inner .subscribe-input .subscribe-button:hover {
-  background-color: #a7f432;
+  background-color: #d39ee6;
   color: #000000;
 }
 
@@ -12555,7 +12539,7 @@ footer {
   border-radius: 8px;
   padding: 30px;
   text-align: center;
-  border: 1px solid rgba(167, 244, 50, 0.9);
+  border: 1px solid rgba(211, 158, 230, 0.9);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -12662,7 +12646,7 @@ form {
 }
 
 .packages-section {
-  background-color: #f7f9fe;
+  background-color: #F8F8F8;
   padding: 8rem 0;
 }
 .packages-section .row [class^=col-] {
@@ -12696,7 +12680,7 @@ form {
 }
 .packages-section .package-section-title::before {
   font-family: "icomoon" !important;
-  content: "\e912";
+  content: "\e905";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12704,7 +12688,7 @@ form {
   font-size: 10rem;
   z-index: -1;
   rotate: 45deg;
-  color: #a7f432;
+  color: #d39ee6;
 }
 .packages-section .packages-col {
   background-color: #ffffff;
@@ -12736,7 +12720,7 @@ form {
 }
 
 .shoe-packages-section {
-  background-color: #f7f9fe;
+  background-color: #F8F8F8;
   padding-bottom: 4rem;
 }
 .shoe-packages-section .row [class^=col-] {
@@ -12770,7 +12754,7 @@ form {
 }
 .shoe-packages-section .package-section-title::before {
   font-family: "icomoon";
-  content: "\e912";
+  content: "\e905";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12778,7 +12762,7 @@ form {
   font-size: 10rem;
   z-index: -1;
   rotate: 45deg;
-  color: #a7f432;
+  color: #d39ee6;
 }
 .shoe-packages-section .packages-col {
   background-color: #ffffff;
